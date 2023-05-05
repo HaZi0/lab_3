@@ -1,0 +1,10 @@
+@echo off
+start /B /WAIT cmd /c "dir F:\Work\"
+start /B /WAIT cmd /c "dir F:\Work\Lab"
+start /B /WAIT cmd /c "dir F:\Work\Lab\Group"
+start /B /WAIT cmd /c "dir F:\Work\Lab\Group\PIP"
+start /B /WAIT cmd /c "dir F:\Work\Lab\Group\PIP\Batch"
+start /B /WAIT cmd /c "dir F:\Work\Lab\Group\PIP\Batch\Hide_folder"
+start /B /WAIT cmd /c "dir F:\Work\Lab\Group\PIP\Batch\Open_folder"
+start /B /WAIT cmd /c "dir F:\Work\Lab\Group\PIP\CMD\Hide_folder"
+start /B /WAIT cmd /c "dir F:\Work\Lab\Group\PIP\CMD\Open_folder & pause"
